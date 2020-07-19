@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    
+    div {
+        height: 50%;
+        width: 2%;
+        border-radius: 25px;
+        background-color: #6a00ff;
+        position: absolute;
+
+        /*&:nth-of-type(1) {
+            animation: color 12s linear infinite both;
+        }*/
+
+        &:nth-child(1) {
+            animation: color 12s linear infinite both;
+            height: 70%;
+            background-color: #6a00ff;
+            left: 0%;
+           
+        }
+        &:nth-child(2) {
+            animation: color 12s linear 0.5s infinite both;
+             background-color: #aa00ff;
+            
+        }
+        &:nth-child(3) {
+            animation: color 12s linear 1s infinite both;
+            height: 10%;
+            background-color: #d400ff;
+        }
+        &:nth-child(4) {
+            animation: color 12s linear 1.5s infinite both;
+            background-color: #ff00ff;
+        }
+        &:nth-child(5) {
+            animation: color 12s linear 2s infinite both;
+            height: 70%;
+            background-color: #ff00cc;
+        }
+        &:nth-child(6) {
+            animation: color 12s linear 2.5s infinite both;
+            background-color: #ff00aa;
+        }
+        &:nth-child(7) {
+            animation: color 12s linear 3s infinite both;
+            height: 10%;
+            background-color: #ff0073;
+        }
+        &:nth-child(8) {
+            animation: color 12s linear 3.5s infinite both;
+            background-color: #ff0000;
+        }
+        &:nth-child(9) {
+            animation: color 12s linear 4s infinite both;
+            height: 70%;
+            background-color: #ff8000;
+        }
+        &:nth-child(10) {
+            animation: color 12s linear 4.5s infinite both;
+            background-color: #d99000;
+        }
+        &:nth-child(11) {
+            animation: color 12s linear 5s infinite both;
+            height: 10%;
+            background-color: #ccaa00;
+        }
+        &:nth-child(12) {
+            animation: color 12s linear 5.5s infinite both;
+            background-color: #bfbf00;
+   
+        }
+        &:nth-child(13) {
+            animation: color 12s linear 6s infinite both;
+            height: 70%;
+            background-color: #acc700;
+        }
+        &:nth-child(14) {
+            animation: color 12s linear 6.5s infinite both;
+            background-color: #88cc00;
+        }
+        &:nth-child(15) {
+            animation: color 12s linear 7s infinite both;
+            height: 10%;
+            background-color: #66cc00;
+        }
+        &:nth-child(16) {
+            animation: color 12s linear 7.5s infinite both;
+            background-color: #00d100;
+        }
+        &:nth-child(17) {
+            animation: color 12s linear 8s infinite both;
+            height: 70%;
+            background-color: #00c743;
+        }
+        &:nth-child(18) {
+            animation: color 12s linear 8.5s infinite both;
+            background-color: #00c774;
+    
+        }
+        &:nth-child(19) {
+            animation: color 12s linear 9s infinite both;
+            height: 10%;
+            background-color: #00c79f;
+        }
+        &:nth-child(20) {
+            animation: color 12s linear 9.5s infinite both;
+            background-color: #00bfbf;
+        }
+        &:nth-child(21) {
+            animation: color 12s linear 10s infinite both;
+            height: 70%;
+            background-color: #00aacc;
+        }
+        &:nth-child(22) {
+            animation: color 12s linear 10.5s infinite both;
+            background-color: #0095ff;
+        }
+        &:nth-child(23) {
+            animation: color 12s linear 11s infinite both;
+            height: 10%;
+            background-color: #0062ff;
+        }
+        &:nth-child(24) {
+            animation: color 12s linear 11.5s infinite both;
+            background-color: #0000ff;
+        }
+        &:nth-child(25) {
+            animation: color 12s linear 12s infinite both;
+            height: 70%;
+            background-color: #8080ff;
+            
+        }
+
+     
+    }
+
+    
+}
+
+
+
+@keyframes color {
+    0% {
+        // background-color: #6a00ff;
+       left: -2%;
+        
+    }
+
+    4% {
+        background-color: #aa00ff;
+    }
+
+    8% {
+        background-color: #d400ff;
+        
+    }
+
+    16% {
+        background-color: #ff00ff;
+    }
+    20% {
+        background-color: #ff00cc;
+    }
+    24% {
+        background-color: #ff00aa;
+    }
+    28% {
+        background-color: #ff0073;
+    }
+    32% {
+        background-color: #ff0000;
+    }
+    36% {
+        background-color: #ff8000;
+    }
+    40% {
+        background-color: #d99000;
+    }
+    44% {
+        background-color: #ccaa00;
+    }
+    48% {
+        background-color: #bfbf00;
+    }
+    52% {
+        background-color: #acc700;
+        height: 30%;
+    }
+    56% {
+        background-color: #88cc00;
+    }
+    60% {
+        background-color: #66cc00;
+    }
+    64% {
+        background-color: #00d100;
+    }
+    68% {
+        background-color: #00c743;
+    }
+    72% {
+        background-color: #00c774;
+    }
+    76% {
+        background-color: #00c79f;
+    }
+    80% {
+        background-color: #00bfbf;
+    }
+    84% {
+        background-color: #00aacc;
+    }
+    88% {
+        background-color: #0095ff;
+    }
+    92% {
+        background-color: #0062ff;
+    }
+    96% {
+        background-color: #0000ff;
+    }
+    100% {
+        // background-color: #8080ff;
+        left: 100%;
+        
+    }
+
+}
+
